@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.chalkpad.TimeTableActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/days"
+            android:layout_weight="1"
+            android:text="@string/day"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/days"
+            android:text="@string/lec1" />
+
+        <TextView
+            style="@style/days"
+            android:text="@string/lec2" />
+
+        <TextView
+            style="@style/days"
+            android:text="@string/lec3" />
+
+        <TextView
+            style="@style/days"
+            android:text="@string/lec4" />
+
+        <TextView
+            style="@style/days"
+            android:text="@string/lec5" />
+        <TextView
+            style="@style/days"
+            android:text="@string/lec6" />
+        <TextView
+            style="@style/days"
+            android:text="@string/lec7" />
+        <TextView
+            style="@style/days"
+            android:text="@string/lec8" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_time_table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical" />
+</LinearLayout>

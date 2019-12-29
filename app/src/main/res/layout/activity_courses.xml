@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.chalkpad.CoursesActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:padding="18dp">
+        <TextView
+            android:layout_weight="3"
+            android:text="@string/subject"
+            style="@style/courses"/>
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/code"
+            style="@style/courses"/>
+        <TextView
+            android:layout_weight="2"
+            android:text="@string/teacher"
+            style="@style/courses"/>
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/type"
+            style="@style/courses"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/list_courses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical" />
+</LinearLayout>

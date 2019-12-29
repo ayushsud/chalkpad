@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.chalkpad.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <TextView
+            style="@style/attendance"
+            android:layout_weight="3"
+            android:text="@string/subject" />
+
+        <TextView
+            style="@style/attendance"
+            android:text="@string/section" />
+
+        <TextView
+            style="@style/attendance"
+            android:layout_weight="2"
+            android:text="@string/teacher" />
+
+        <TextView
+            style="@style/attendance"
+            android:text="@string/delivered" />
+
+        <TextView
+            style="@style/attendance"
+            android:text="@string/attended"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/attendance"
+            android:text="@string/percent" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_attendance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical" />
+</LinearLayout>

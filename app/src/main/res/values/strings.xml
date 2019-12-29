@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Chalkpad</string>
+    <string name="section">Section</string>
+    <string name="subject">Subject</string>
+    <string name="teacher">Teacher</string>
+    <string name="delivered">Delivered</string>
+    <string name="attended">Attended</string>
+    <string name="percent">%</string>
+    <string name="code">Code</string>
+    <string name="type">Type</string>
+    <string name="attendance">Attendance</string>
+    <string name="marks">Marks</string>
+    <string name="table">Time Table</string>
+    <string name="resources">Resources</string>
+    <string name="grades">Grades</string>
+    <string name="notices">Notices</string>
+    <string name="day">Day</string>
+    <string name="mon">Monday</string>
+    <string name="tue">Tuesday</string>
+    <string name="wed">Wednesday</string>
+    <string name="thu">Thursday</string>
+    <string name="fri">Friday</string>
+    <string name="lec1">1\n09:00\n09:55</string>
+    <string name="lec2">2\n09:55\n10:50</string>
+    <string name="lec3">3\n10:50\n11:45</string>
+    <string name="lec4">4\n11:45\n12:40</string>
+    <string name="lec5">5\n12:40\n01:30</string>
+    <string name="lec6">6\n01:35\n02:30</string>
+    <string name="lec7">7\n02:30\n03:25</string>
+    <string name="lec8">8\n03:25\n04:20</string>
+</resources>
